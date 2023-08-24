@@ -76,10 +76,10 @@ def update_driver():
     with open('driver.sh', 'r') as file:
         data = file.readlines()
 
-    data[7] = 'python3 playlist_main.py ' + util.season + ' ' + str(int(util.archno) + 1) + ' '
+    data[6] = 'python3 playlist_main.py ' + util.season + ' ' + str(int(util.archno) + 1) + ' ' + util.folderID + ' '
     for item in util.toaddr:
-        data[7] = data[7] + str(item) + ' '
+        data[6] = data[6] + str(item) + ' '
     
-    data[7] = data[7] + '\n\n'
+    data[6] = data[6] + '\n'
     with open('driver.sh', 'w') as file:
         file.writelines(data)

@@ -144,7 +144,7 @@ except:
 # Do functions from site_update to update the site
 
 # Print status message
-util.prSuccess("Beginning updates to www.livefromthedungeon.net")
+util.prSuccess("Beginning updates to www.livefromthedungeon.net\n")
 
 # Make the link for the audio element
 downloadLink = sup.makeDownloadLink(playlist_mp3_ID)
