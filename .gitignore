@@ -1,3 +1,7 @@
-# Credentials files
-credentials.json
+driver.sh
 client_secret.json
+credentials.json
+__pycache__
+*.mp3
+*.txt
+*.sh
