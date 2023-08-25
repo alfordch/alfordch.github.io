@@ -19,8 +19,8 @@ def update_archive(dlLink, description, titStr):
         data = file.readlines()
 
     # Get the two halves of the archive html that we need
-    dataFirstHalf = data[:71]
-    dataSecondHalf = data[71:]
+    dataFirstHalf = data[:70]
+    dataSecondHalf = data[70:]
     dataNew = []
     
     # Write to dataNew
@@ -55,7 +55,7 @@ def update_index(dlLink, description, titStr, spinLink):
     data[74] = divStr
 
     # Edit the episode title string
-    data[75] = "            <h3><a href=" + dlLink + ">" + titStr +":</a></h3>"
+    data[75] = "            <h3><a href=" + dlLink + ">" + titStr +":</a></h3>\n"
 
     # Edit the episode description
     description = description[:-14] + " <br><br>\n"
