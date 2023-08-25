@@ -139,6 +139,12 @@ footer {
         font-size: 3vw;
     }
     .mobile-header {
-        font-size: 3.5vw;
+        font-size: 3vw;
+    }
+    .mobile-nav {
+        font-size: 3vw;
+    }
+    .box {
+        width: 100%;
     }
 }
