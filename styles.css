@@ -113,6 +113,15 @@ footer {
   background: beige;
 }
 
+.archives {
+    padding: 10px;
+    margin: 5px;
+    border: 5px;
+    font-family: cooperBlack;
+    color: #ededed;
+    background-color: #333;
+}
+
 /* Styles for screens from 769px and above (desktop screens) */
 @media (min-width: 769px) {
     .desktop-top-bar {
@@ -136,15 +145,18 @@ footer {
         text-align: center;
     }
     body {
-        font-size: 3vw;
+        font-size: 4vw;
     }
     .mobile-header {
-        font-size: 3vw;
+        font-size: 5vw;
     }
     .mobile-nav {
-        font-size: 3vw;
+        font-size: 4.5vw;
     }
     .box {
         width: 100%;
+    }
+    .archives {
+        text-align: center;
     }
 }

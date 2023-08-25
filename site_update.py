@@ -13,14 +13,14 @@ def makeDownloadLink(fileID):
     return dlLink
 
 
-# Opening <p> tag: index 63 (archive.html ln 64)
+# Opening <p> tag: index 70 (archive.html ln 71)
 def update_archive(dlLink, description, titStr):
     with open('archive.html', 'r') as file:
         data = file.readlines()
 
     # Get the two halves of the archive html that we need
-    dataFirstHalf = data[:63]
-    dataSecondHalf = data[63:]
+    dataFirstHalf = data[:71]
+    dataSecondHalf = data[71:]
     dataNew = []
     
     # Write to dataNew
@@ -55,7 +55,7 @@ def update_index(dlLink, description, titStr, spinLink):
     data[74] = divStr
 
     # Edit the episode title string
-    data[75] = data[75][:-31] + titStr[:-1] + ": </h4>\n"
+    data[75] = "            <h3><a href=" + dlLink + ">" + titStr +":</a></h3>"
 
     # Edit the episode description
     description = description[:-14] + " <br><br>\n"
