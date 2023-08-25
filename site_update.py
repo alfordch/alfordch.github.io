@@ -19,8 +19,8 @@ def update_archive(dlLink, description, titStr):
         data = file.readlines()
 
     # Get the two halves of the archive html that we need
-    dataFirstHalf = data[:70]
-    dataSecondHalf = data[70:]
+    dataFirstHalf = data[:71]
+    dataSecondHalf = data[71:]
     dataNew = []
     
     # Write to dataNew
