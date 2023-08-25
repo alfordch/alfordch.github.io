@@ -55,7 +55,7 @@ def update_index(dlLink, description, titStr, spinLink):
     data[74] = divStr
 
     # Edit the episode title string
-    data[75] = "            <h3><a href=" + dlLink + ">" + titStr +":</a></h3>\n"
+    data[75] = "            <h3><a href=" + dlLink + ">" + titStr[:-1] +":</a></h3>\n"
 
     # Edit the episode description
     description = description[:-14] + " <br><br>\n"
