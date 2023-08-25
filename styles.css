@@ -27,6 +27,14 @@ body {
     background-color: #333;
 }
 
+.mobile-nav {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 20px;
+    background-color: #333;
+}
+
 nav ul {
     float: right;
 }
@@ -51,9 +59,23 @@ a, a:hover, a:visited, a:active {
     text-decoration: none;
 }
 
-.top-bar {
+.desktop-top-bar {
     border-bottom: 30px solid rgba(0, 0, 0, 0);
     padding: 10px;
+}
+
+.mobile-top-bar {
+    border-bottom: 30px solid rgba(0, 0, 0, 0);;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.mobile-top-bar header {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 main {
@@ -89,4 +111,34 @@ footer {
 
 ::-webkit-scrollbar-thumb:hover {
   background: beige;
+}
+
+/* Styles for screens from 769px and above (desktop screens) */
+@media (min-width: 769px) {
+    .desktop-top-bar {
+        display: block; /* Show on desktop screens */
+    }
+    .mobile-top-bar {
+        display: none; /* Hide on desktop screens */
+    }
+}
+
+/* Styles for screens up to 768px (typical tablets and smartphones in landscape mode) */
+@media (max-width: 768px) {
+    .desktop-top-bar {
+        display: none; /* Hide on mobile screens */
+    }
+    .mobile-top-bar {
+        display: block; /* Show on mobile screens */
+        margin-bottom: -20px
+    }
+    main {
+        text-align: center;
+    }
+    body {
+        font-size: 3vw;
+    }
+    .mobile-header {
+        font-size: 3.5vw;
+    }
 }
