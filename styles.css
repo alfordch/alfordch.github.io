@@ -83,13 +83,33 @@ main {
     padding: 10px 10px;
 }
 
-.box {
-    width: 48%; /* Adjust the width as needed */
-    margin: 1%; /* Add a small margin between the boxes */
+/* .box {
+    width: 48%;
+    margin: 1%;
     float: left;
     border: 5px solid #ccc;
     padding: 20px;
     box-sizing: border-box;
+} */
+
+.box {
+/*     background-color: #333;
+    margin: 1%;
+    border: 5px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 48%; */
+    display: inline-block;
+    width: 49%;
+    box-sizing: border-box;
+    vertical-align: top;
+    background-color: #333;
+    border: 5px solid #ccc;
+    padding: 20px;
+}
+
+.box_of_boxes {
+    text-align: center;
 }
 
 footer {
@@ -130,6 +150,12 @@ footer {
     .mobile-top-bar {
         display: none; /* Hide on desktop screens */
     }
+    audio {
+        max-width: 400px;
+    }
+    .box {
+        text-align: left;
+    }
 }
 
 /* Styles for screens up to 768px (typical tablets and smartphones in landscape mode) */
@@ -156,15 +182,19 @@ footer {
     }
     .box {
         width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
     }
     .archives {
         text-align: center;
+    }
+    audio {
+        max-width: 275px;
     }
 }
 
 audio {
     width: 100%;
-    max-width: 400px;
     border: 10px solid #232323;
     border-radius: 5px;
     background-color: beige;
