@@ -63,7 +63,7 @@ def distribute(file_ID, date):
     link = 'https://drive.google.com/file/d/' + file_ID + '/view?usp=drive_link'
 
     # string to store the body of the mail
-    body = "See attached and the below link to this week's Live from the Dungeon recording. Live from the Dungeon archives are now also hosted on https://www.livefromthedungeon.net.\n\n" + link
+    body = "See attached and the below link to this week's Live from the Dungeon recording. Live from the Dungeon archives are now also hosted on https://www.livefromthedungeon.net.\n\n" + link + "\n\n[This is an automated message]"
 
     # attach the body with the msg instance
     msg.attach(MIMEText(body, 'plain'))

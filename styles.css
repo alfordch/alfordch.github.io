@@ -146,6 +146,7 @@ footer {
     }
     body {
         font-size: 4vw;
+        text-align: center;
     }
     .mobile-header {
         font-size: 5vw;
@@ -159,4 +160,19 @@ footer {
     .archives {
         text-align: center;
     }
+}
+
+audio {
+    width: 100%;
+    max-width: 400px;
+    border: 10px solid #232323;
+    border-radius: 5px;
+    background-color: beige;
+}
+
+/* Style the audio controls */
+audio::-webkit-media-controls-panel {
+    background-color: beige;
+    border-radius: 5px;
+    color: beige;
 }
