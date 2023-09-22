@@ -84,7 +84,7 @@ def distribute(file_ID, date):
     s.sendmail(fromaddr, toaddr, text)
 
     # terminating the session
-    s.quit()
+    s.quit() 
 
 
 def uploadFile(folder_ID, up_filename, type):
