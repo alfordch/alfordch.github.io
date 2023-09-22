@@ -140,6 +140,7 @@ footer {
     font-family: cooperBlack;
     color: #ededed;
     background-color: #333;
+    border: 5px solid #ccc;
 }
 
 /* Styles for screens from 769px and above (desktop screens) */
