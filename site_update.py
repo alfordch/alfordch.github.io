@@ -13,14 +13,14 @@ def makeDownloadLink(fileID):
     return dlLink
 
 
-# Opening <p> tag: index 70 (archive.html ln 71)
+# Opening <p> tag: index 71 (archive.html ln 72)
 def update_archive(dlLink, description, titStr):
     with open('archive.html', 'r') as file:
         data = file.readlines()
 
     # Get the two halves of the archive html that we need
-    dataFirstHalf = data[:71]
-    dataSecondHalf = data[71:]
+    dataFirstHalf = data[:72]
+    dataSecondHalf = data[72:]
     dataNew = []
     
     # Write to dataNew
@@ -41,31 +41,31 @@ def update_archive(dlLink, description, titStr):
         file.writelines(data)
 
 
-# Div class: index 74 (index.html ln 75)
-# Episode title: index 75 (index.html ln 76)
-# Episode description: index 76 (index.html ln 77)
-# Episode mp3 GDrive link: index 78 (index.html ln 79)
-# Spinitron playlist link: index 86 (index.html ln 87)
+# Div class: index 75 (index.html ln 76)
+# Episode title: index 76 (index.html ln 77)
+# Episode description: index 77 (index.html ln 78)
+# Episode mp3 GDrive link: index 79 (index.html ln 80)
+# Spinitron playlist link: index 87 (index.html ln 88)
 def update_index(dlLink, description, titStr, spinLink):
     with open('index.html', 'r') as file:
         data = file.readlines()
     
     # Edit the div class string
-    divStr = data[74][:27] + str(util.archno) + '">\n'
-    data[74] = divStr
+    divStr = data[75][:27] + str(util.archno) + '">\n'
+    data[75] = divStr
 
     # Edit the episode title string
-    data[75] = "            <h3><a href=" + dlLink + ">" + titStr[:-1] +":</a></h3>\n"
+    data[76] = "            <h3><a href=" + dlLink + ">" + titStr[:-1] +":</a></h3>\n"
 
     # Edit the episode description
     description = description[:-14] + " <br><br>\n"
-    data[76] = data[76][:12] + description
+    data[77] = data[77][:12] + description
 
     # Edit the mp3 GDrive link
-    data[78] = data[78][:28] + '"' + dlLink + '" type="audio/mpeg">\n'
+    data[79] = data[79][:28] + '"' + dlLink + '" type="audio/mpeg">\n'
 
     # Edit the Spinitron link
-    data[86] = data[86][:20] + '"' + spinLink + '" width="100%" height="500rem"></iframe>\n'
+    data[87] = data[87][:20] + '"' + spinLink + '" width="100%" height="500rem"></iframe>\n'
 
     with open('index.html', 'w') as file:
         file.writelines(data)
