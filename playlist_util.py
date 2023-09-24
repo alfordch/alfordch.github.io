@@ -166,7 +166,7 @@ def getEpisodeDates(soupOBJ):
         # Get the entire list of playlists dates as datetime objects
         content[i] = content[i][1:]
         content[i] = content[i][:-1]
-        content[i] = content[i].replace("th"," ").replace("st"," ").replace("rd"," ").replace(" PM","PM").replace(" AM","AM")
+        content[i] = content[i].replace("th"," ").replace("st"," ").replace("rd"," ").replace(" PM","PM").replace(" AM","AM").replace("nd", " ")
         content[i] = content[i][:3] + " " + content[i][3:]
         content[i] = content[i][:content[i].find('2023') + 4] + " " +  content[i][content[i].find('2023') + 4:]
         content[i] = content[i][:content[i].find('2022') + 4] + " " +  content[i][content[i].find('2022') + 4:]
