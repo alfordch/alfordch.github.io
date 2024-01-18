@@ -83,22 +83,7 @@ main {
     padding: 10px 10px;
 }
 
-/* .box {
-    width: 48%;
-    margin: 1%;
-    float: left;
-    border: 5px solid #ccc;
-    padding: 20px;
-    box-sizing: border-box;
-} */
-
 .box {
-/*     background-color: #333;
-    margin: 1%;
-    border: 5px solid #ccc;
-    padding: 20px;
-    box-sizing: border-box;
-    width: 48%; */
     display: inline-block;
     width: 49%;
     box-sizing: border-box;
@@ -206,4 +191,8 @@ audio::-webkit-media-controls-panel {
     background-color: beige;
     border-radius: 5px;
     color: beige;
+}
+
+iframe {
+    width: 100%;
 }
