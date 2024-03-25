@@ -6,7 +6,7 @@ body, footer, div, header, h1, .container, ul {
 
 @font-face {
     font-family: cooperBlack;
-    src: url(cooperblackitalic.otf);
+    src: url(./Other/cooperblackitalic.otf);
 }
 
 body {
