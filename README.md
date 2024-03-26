@@ -22,8 +22,8 @@ be sure to check the home page for each week's theme.
 - Anyone who finds themself here with any comments or improvements to be made, please email them to alfordch@umich.edu
 
 ## Todo
-- [ ] Add email list sign up to ```index.html```
 - [ ] Fix update python scripts to account for DST
+- [x] Add email list sign up to ```index.html```
 - [x] Implement the searching feature on the ```archive.html``` page
 - [x] Put each archive in its own page
 

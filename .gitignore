@@ -6,6 +6,7 @@ __pycache__
 *.txt
 *.sh
 *.Identifier
+*.py
 playlist_main.py 
 playlist_util.py
 site_update.py
