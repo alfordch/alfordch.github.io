@@ -64,11 +64,14 @@
             </p>
 
         </main>
-
-        <br>
         
-        <div class="archives">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search Date Or Title" onkeypress="handleKeyPress(event)">
+            <!-- <button id="searchButton" onclick="search_archive()">Search</button> -->
+        </div>
 
+        <div class="archives">
+            
             <p>
                 <div class="archive57">
                     <h3><a href="../Archives/archive57.html">3/22/24 Beats By Su-Primo, Vol. 2</a></h3>
@@ -306,6 +309,8 @@
     
     <br>
     
+    <script src="./search.js"></script>
+
 </body>
 
 <footer>
