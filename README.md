@@ -1,6 +1,8 @@
 # livefromthedungeon.net
 
-This repository is DJ Double Two's personal project to archive and host the recordings and website for Live from the Dungeon.
+livefromthedungeon.net and its update scripts are DJ Double Two's personal project to archive and host the recordings and website for Live from the Dungeon. 
+
+Update scripts are not included in this repository, but are available upon request.
 
 ## About:
 
@@ -20,10 +22,12 @@ be sure to check the home page for each week's theme.
 ## **Notes:**
 - Improvements are in progress to make the search on the archive page better, as well as make the structure of this repo more traversable. 
 - Anyone who finds themself here with any comments or improvements to be made, please email them to alfordch@umich.edu
+- The form for email submissions has its backend hosted by Formspree, with responses being forwarded to livefromthedungeonarchive@gmail.com.
 
 ## Todo
-- [ ] Fix update python scripts to account for DST
-- [x] Add email list sign up to ```index.html```
-- [x] Implement the searching feature on the ```archive.html``` page
-- [x] Put each archive in its own page
-
+1. [ ] Think of something else to put in the empty space under the email form
+2. [ ] Fix mobile email form submission (does not work without pressing submit button)
+3. [x] Fix update python scripts to account for DST
+4. [x] Add email list sign up to ```index.html```
+5. [x] Implement the searching feature on the ```archive.html``` page
+6. [x] Put each archive in its own page
