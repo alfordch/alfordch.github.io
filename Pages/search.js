@@ -5,7 +5,7 @@ function search_archive() {
     let archives = document.querySelector('.archives');
 
     for (let i = 0; i < archives.children.length; i++) {
-        if (archives.children[i].textContent.includes(searchDate)) {
+        if (archives.children[i].textContent.toLowerCase().includes(searchDate.toLowerCase())) {
             archives.children[i].style.display = "block";
         }
         else {

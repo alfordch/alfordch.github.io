@@ -31,3 +31,4 @@ be sure to check the home page for each week's theme.
 4. [x] Add email list sign up to ```index.html```
 5. [x] Implement the searching feature on the ```archive.html``` page
 6. [x] Put each archive in its own page
+7. [x] Make archive search case insensitive
