@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7ebe1c76.css",
+    "main.js": "/static/js/main.1bcd4c03.js",
+    "static/css/960.015a3320.chunk.css": "/static/css/960.015a3320.chunk.css",
+    "static/js/960.662f8508.chunk.js": "/static/js/960.662f8508.chunk.js",
+    "static/media/discogs.png": "/static/media/discogs.dd7b012b9d9ba29ad4b8.png",
+    "static/media/instagram.png": "/static/media/instagram.ed5ed57e98d053cf1e55.png",
+    "static/media/LFTD_Logo_Transparent.png": "/static/media/LFTD_Logo_Transparent.9701be135cdc07a59887.png",
+    "static/media/transparent-WCBN.png": "/static/media/transparent-WCBN.af51f4348c64a87c8ffd.png",
+    "static/media/cooperblackitalic.otf": "/static/media/cooperblackitalic.967b56fce0158affbc6b.otf",
+    "static/media/mostRecent.png": "/static/media/mostRecent.152ec9deb0e669c28eaa.png",
+    "static/media/LFTD_Logo_Transparent_hz.png": "/static/media/LFTD_Logo_Transparent_hz.c15b7ce8487854b4dcd1.png",
+    "static/media/archive.png": "/static/media/archive.616b2d7e6e466cbf88ab.png",
+    "static/media/spinitron.png": "/static/media/spinitron.bc0fa3aad123fc37bb08.png",
+    "static/media/playlist.png": "/static/media/playlist.0332a1e01a7857780e47.png",
+    "static/media/about.png": "/static/media/about.ab70aa137b4a6e219525.png",
+    "index.html": "/index.html",
+    "main.7ebe1c76.css.map": "/static/css/main.7ebe1c76.css.map",
+    "main.1bcd4c03.js.map": "/static/js/main.1bcd4c03.js.map",
+    "960.015a3320.chunk.css.map": "/static/css/960.015a3320.chunk.css.map",
+    "960.662f8508.chunk.js.map": "/static/js/960.662f8508.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ebe1c76.css",
+    "static/js/main.1bcd4c03.js"
+  ]
+}
