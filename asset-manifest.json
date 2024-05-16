@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.964a5c1b.css",
-    "main.js": "/static/js/main.d055478c.js",
+    "main.css": "/static/css/main.e4666b65.css",
+    "main.js": "/static/js/main.3481c3fb.js",
     "static/css/960.17d24690.chunk.css": "/static/css/960.17d24690.chunk.css",
     "static/js/960.662f8508.chunk.js": "/static/js/960.662f8508.chunk.js",
     "static/media/discogs.png": "/static/media/discogs.dd7b012b9d9ba29ad4b8.png",
@@ -11,19 +11,19 @@
     "static/media/LFTD_Logo_Transparent_hz.png": "/static/media/LFTD_Logo_Transparent_hz.706b2c7feca267915457.png",
     "static/media/cooperblackitalic.otf": "/static/media/cooperblackitalic.967b56fce0158affbc6b.otf",
     "static/media/OPTIFranklinGothic-Medium.otf": "/static/media/OPTIFranklinGothic-Medium.1fd28715b883ab99d425.otf",
-    "static/media/mostRecent.png": "/static/media/mostRecent.152ec9deb0e669c28eaa.png",
+    "static/media/lastEpisode.png": "/static/media/lastEpisode.152ec9deb0e669c28eaa.png",
     "static/media/archive.png": "/static/media/archive.616b2d7e6e466cbf88ab.png",
     "static/media/spinitron.png": "/static/media/spinitron.bc0fa3aad123fc37bb08.png",
     "static/media/playlist.png": "/static/media/playlist.0332a1e01a7857780e47.png",
     "static/media/about.png": "/static/media/about.ab70aa137b4a6e219525.png",
     "index.html": "/index.html",
-    "main.964a5c1b.css.map": "/static/css/main.964a5c1b.css.map",
-    "main.d055478c.js.map": "/static/js/main.d055478c.js.map",
+    "main.e4666b65.css.map": "/static/css/main.e4666b65.css.map",
+    "main.3481c3fb.js.map": "/static/js/main.3481c3fb.js.map",
     "960.17d24690.chunk.css.map": "/static/css/960.17d24690.chunk.css.map",
     "960.662f8508.chunk.js.map": "/static/js/960.662f8508.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.964a5c1b.css",
-    "static/js/main.d055478c.js"
+    "static/css/main.e4666b65.css",
+    "static/js/main.3481c3fb.js"
   ]
 }
