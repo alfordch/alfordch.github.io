@@ -28,6 +28,6 @@ be sure to check the home page for each week's theme.
 1. [ ] Make signup form available on mobile
 2. [ ] Make animation/transition for mobile nav opening
 3. [ ] Possibly switch mobile nav from a dropdown topbar to a sidebar on the right side w/ transition
-4. [ ] Make headers look better
+4. [x] Make headers look better
 5. [x] Find secondary font to complement Cooper Black
 6. [x] Fix margins/padding for the desktop sidebar
