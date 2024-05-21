@@ -6,21 +6,10 @@ Update scripts are not included in this repository, but are available upon reque
 
 ## About:
 
-These pages are intended to provide access to archives and playlists for Live from the Dungeon,
-a radio program aired Fridays from 10PM - 11PM on WCBN 88.3 FM in Ann Arbor, MI. 
-
-Hosted by DJ Double Two, Live from the Dungeon is a Hip-Hop show, with a focus on older styles like
-Boom-Bap and Jazz-Rap. Tracks played for the show are from my personal vinyl/CD collection as well as
-the WCBN music library. The time frame of the shows airing allows me to provide an explicit broadcast
-for your listening experience. 
-
-Live from the Dungeon's first season on air was the summer of 2022. To date, the only season off air
-since its premiere was summer 2023. As host, I attempt to plan themed shows for every weekly broadcast,
-be sure to check the home page for each week's theme.
-
+This Github Pages repository is the host for the React JS pages for livefromthedungeon.net and its frequent updates. Dependecies include `Create React App`, `Material Designs` and `Formspree`. React source code is available upon request. The site can be accessed at [www.livefromthedungeon.net](https://www.livefromthedungeon.net). 
 
 ## **Notes:**
-- livefromthedungeon.net recently underwent massive updates, namely making the page served using React JS instead of simple HTML/CSS. As such, GitHub pages might be having trouble serving the custom domain's index.html file. 
+- livefromthedungeon.net recently underwent massive updates, namely making the page served using React JS instead of simple HTML/CSS. The previous deployment is available under the `html-deploy` branch for reference. 
 - Anyone who finds themself here with any comments or improvements to be made, please email them to alfordch@umich.edu
 - The form for email submissions has its backend hosted by Formspree, with responses being forwarded to livefromthedungeonarchive@gmail.com.
 
