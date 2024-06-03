@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.84e9ccde.css",
-    "main.js": "/static/js/main.da736410.js",
+    "main.css": "/static/css/main.44882fb5.css",
+    "main.js": "/static/js/main.e726b642.js",
     "static/css/960.0e0363ef.chunk.css": "/static/css/960.0e0363ef.chunk.css",
-    "static/js/960.fb40d4da.chunk.js": "/static/js/960.fb40d4da.chunk.js",
+    "static/js/960.8186b476.chunk.js": "/static/js/960.8186b476.chunk.js",
     "static/media/discogs.png": "/static/media/discogs.dd7b012b9d9ba29ad4b8.png",
     "static/media/instagram.png": "/static/media/instagram.ed5ed57e98d053cf1e55.png",
     "static/media/LFTD_Logo_Transparent.png": "/static/media/LFTD_Logo_Transparent.9701be135cdc07a59887.png",
@@ -14,18 +14,19 @@
     "static/media/lastEpisode.png": "/static/media/lastEpisode.152ec9deb0e669c28eaa.png",
     "static/media/archive.png": "/static/media/archive.616b2d7e6e466cbf88ab.png",
     "static/media/spinitron.png": "/static/media/spinitron.bc0fa3aad123fc37bb08.png",
+    "static/media/signUp.png": "/static/media/signUp.6518137a4070e4461f19.png",
     "static/media/playlist.png": "/static/media/playlist.0332a1e01a7857780e47.png",
     "static/media/external.png": "/static/media/external.998158dca72c0dce5712.png",
     "static/media/about.png": "/static/media/about.ab70aa137b4a6e219525.png",
     "static/media/download.png": "/static/media/download.ff248c4feb131e0533a1.png",
     "index.html": "/index.html",
-    "main.84e9ccde.css.map": "/static/css/main.84e9ccde.css.map",
-    "main.da736410.js.map": "/static/js/main.da736410.js.map",
+    "main.44882fb5.css.map": "/static/css/main.44882fb5.css.map",
+    "main.e726b642.js.map": "/static/js/main.e726b642.js.map",
     "960.0e0363ef.chunk.css.map": "/static/css/960.0e0363ef.chunk.css.map",
-    "960.fb40d4da.chunk.js.map": "/static/js/960.fb40d4da.chunk.js.map"
+    "960.8186b476.chunk.js.map": "/static/js/960.8186b476.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84e9ccde.css",
-    "static/js/main.da736410.js"
+    "static/css/main.44882fb5.css",
+    "static/js/main.e726b642.js"
   ]
 }
