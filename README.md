@@ -17,7 +17,7 @@ This Github Pages repository is the host for the React JS pages for livefromthed
 1. [x] Make signup form available on mobile
 2. [ ] Make animation/transition for mobile nav opening
 3. [ ] Possibly switch mobile nav from a dropdown topbar to a sidebar on the right side w/ transition
-4. [x] Make searchbar height fixed and fix width to no not go beyond hr
+4. [ ] Make searchbar height fixed and fix width to no not go beyond hr
 5. [x] Make hover icons only appear on desktop view
 6. [x] Fix signup form on desktop print appropriate message and fix error behavior
 7. [x] Make headers look better
