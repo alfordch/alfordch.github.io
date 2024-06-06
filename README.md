@@ -14,7 +14,7 @@ This Github Pages repository is the host for the React JS pages for livefromthed
 - The form for email submissions has its backend hosted by Formspree, with responses being forwarded to livefromthedungeonarchive@gmail.com.
 
 ## Todo
-1. [ ] Make animation/transition for mobile nav opening
+1. [ ] Make entire .sideBarLi clickable for navigation
 2. [x] Make signup form available on mobile
 3. [x] Make searchbar height fixed and fix width to no not go beyond hr
 4. [x] Make hover icons only appear on desktop view
