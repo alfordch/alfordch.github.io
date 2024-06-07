@@ -21,6 +21,6 @@ This Github Pages repository is the host for the React JS pages for livefromthed
 5. [x] Make hover icons only appear on desktop view
 6. [x] Fix signup form on desktop print appropriate message and fix error behavior
 7. [x] Make signUp popup disappear when you click outside of it, but not when you click in the main form box
-8. [x] Fix issue where mainContent goes beyond header width
-9. [ ] Make archive nowPlaying persist through navitgation
-10. [ ] Make nowPlaying a bar at the bottom of screen with audio controls
+8. [ ] Make archive nowPlaying persist through navitgation
+9. [ ] Make nowPlaying a bar at the bottom of screen with audio controls
+10. [x] Make MRLi hover show album cover art
