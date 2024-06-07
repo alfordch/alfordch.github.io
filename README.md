@@ -14,10 +14,13 @@ This Github Pages repository is the host for the React JS pages for livefromthed
 - The form for email submissions has its backend hosted by Formspree, with responses being forwarded to livefromthedungeonarchive@gmail.com.
 
 ## Todo
-1. [ ] Make entire .sideBarLi clickable for navigation
-2. [x] Make signup form available on mobile
-3. [x] Make searchbar height fixed and fix width to no not go beyond hr
-4. [x] Make hover icons only appear on desktop view
-5. [x] Fix signup form on desktop print appropriate message and fix error behavior
-6. [x] Make signUp popup disappear when you click outside of it, but not when you click in the main form box
-7. [x] Fix issue where mainContent goes beyond header width
+1. [x] Make acronym logo for favicon
+2. [x] Make entire .sideBarLi clickable for navigation
+3. [x] Make signup form available on mobile
+4. [x] Make searchbar height fixed and fix width to no not go beyond hr
+5. [x] Make hover icons only appear on desktop view
+6. [x] Fix signup form on desktop print appropriate message and fix error behavior
+7. [x] Make signUp popup disappear when you click outside of it, but not when you click in the main form box
+8. [x] Fix issue where mainContent goes beyond header width
+9. [ ] Make archive nowPlaying persist through navitgation
+10. [ ] Make nowPlaying a bar at the bottom of screen with audio controls
