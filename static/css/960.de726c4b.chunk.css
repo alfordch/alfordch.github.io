@@ -1,2 +1,0 @@
-.nowPlaying{background-color:#333;border:2px solid #cccccc27;bottom:0;font-family:cooperBlack;margin-top:10px;position:-webkit-sticky;position:sticky}.currMp3{display:block;height:10vh;margin:auto auto 1vh;text-align:center;width:97%}.currTitle{margin:1vh;padding-left:1vw;text-align:center}.nowPlaying a{color:beige}.downloadIcon{display:inline-block;opacity:0;transition:opacity .3s ease;vertical-align:middle}.currTitle:hover .downloadIcon{opacity:1}@media (max-width:768px){.downloadIcon{display:none}}
-/*# sourceMappingURL=960.de726c4b.chunk.css.map*/
