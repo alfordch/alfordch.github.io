@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.de11bc5d.css",
-    "main.js": "/static/js/main.c2771e74.js",
-    "static/css/627.641f3dc9.chunk.css": "/static/css/627.641f3dc9.chunk.css",
-    "static/js/627.7c4f81d6.chunk.js": "/static/js/627.7c4f81d6.chunk.js",
+    "main.js": "/static/js/main.73fe7465.js",
+    "static/css/627.25bb6973.chunk.css": "/static/css/627.25bb6973.chunk.css",
+    "static/js/627.f5c82b40.chunk.js": "/static/js/627.f5c82b40.chunk.js",
     "static/media/discogs.png": "/static/media/discogs.dd7b012b9d9ba29ad4b8.png",
     "static/media/instagram.png": "/static/media/instagram.ed5ed57e98d053cf1e55.png",
     "static/media/LFTD_Logo_Transparent.png": "/static/media/LFTD_Logo_Transparent.9701be135cdc07a59887.png",
@@ -21,12 +21,12 @@
     "static/media/download.png": "/static/media/download.ff248c4feb131e0533a1.png",
     "index.html": "/index.html",
     "main.de11bc5d.css.map": "/static/css/main.de11bc5d.css.map",
-    "main.c2771e74.js.map": "/static/js/main.c2771e74.js.map",
-    "627.641f3dc9.chunk.css.map": "/static/css/627.641f3dc9.chunk.css.map",
-    "627.7c4f81d6.chunk.js.map": "/static/js/627.7c4f81d6.chunk.js.map"
+    "main.73fe7465.js.map": "/static/js/main.73fe7465.js.map",
+    "627.25bb6973.chunk.css.map": "/static/css/627.25bb6973.chunk.css.map",
+    "627.f5c82b40.chunk.js.map": "/static/js/627.f5c82b40.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de11bc5d.css",
-    "static/js/main.c2771e74.js"
+    "static/js/main.73fe7465.js"
   ]
 }
