@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8d39eb4a.css",
-    "main.js": "/static/js/main.bf38ea94.js",
+    "main.css": "/static/css/main.d17e590e.css",
+    "main.js": "/static/js/main.b162e109.js",
     "static/css/627.b76e2c2b.chunk.css": "/static/css/627.b76e2c2b.chunk.css",
     "static/js/627.f5c82b40.chunk.js": "/static/js/627.f5c82b40.chunk.js",
     "static/media/discogs.png": "/static/media/discogs.dd7b012b9d9ba29ad4b8.png",
@@ -12,21 +12,31 @@
     "static/media/cooperblackitalic.otf": "/static/media/cooperblackitalic.967b56fce0158affbc6b.otf",
     "static/media/OPTIFranklinGothic-Medium.otf": "/static/media/OPTIFranklinGothic-Medium.1fd28715b883ab99d425.otf",
     "static/media/lastEpisode.png": "/static/media/lastEpisode.152ec9deb0e669c28eaa.png",
+    "static/media/spin2.jpg": "/static/media/spin2.94e3dbc177d08d80431f.jpg",
+    "static/media/spin13.jpg": "/static/media/spin13.b106cf470ae499505851.jpg",
     "static/media/archive.png": "/static/media/archive.616b2d7e6e466cbf88ab.png",
     "static/media/spinitron.png": "/static/media/spinitron.bc0fa3aad123fc37bb08.png",
     "static/media/signUp.png": "/static/media/signUp.6518137a4070e4461f19.png",
+    "static/media/spin10.jpg": "/static/media/spin10.035e1c22eaccdf4ae76d.jpg",
+    "static/media/spin1.jpg": "/static/media/spin1.4864d671d4faa9b21ea6.jpg",
     "static/media/playlist.png": "/static/media/playlist.0332a1e01a7857780e47.png",
+    "static/media/spin14.jpg": "/static/media/spin14.1d66593fde8394bc9bcb.jpg",
+    "static/media/spin6.jpg": "/static/media/spin6.4e72c1c6f7cbfd65daa8.jpg",
+    "static/media/spin7.jpg": "/static/media/spin7.35cffa95ddc3947e0138.jpg",
     "static/media/external.png": "/static/media/external.998158dca72c0dce5712.png",
+    "static/media/spin11.jpg": "/static/media/spin11.fb32467f03ee2d470288.jpg",
     "static/media/about.png": "/static/media/about.ab70aa137b4a6e219525.png",
+    "static/media/spin8.jpg": "/static/media/spin8.f7b9d49b2b51070fb49f.jpg",
     "static/media/download.png": "/static/media/download.ff248c4feb131e0533a1.png",
+    "static/media/spin4.jpg": "/static/media/spin4.16ebcde22c710a7bfc4a.jpg",
     "index.html": "/index.html",
-    "main.8d39eb4a.css.map": "/static/css/main.8d39eb4a.css.map",
-    "main.bf38ea94.js.map": "/static/js/main.bf38ea94.js.map",
+    "main.d17e590e.css.map": "/static/css/main.d17e590e.css.map",
+    "main.b162e109.js.map": "/static/js/main.b162e109.js.map",
     "627.b76e2c2b.chunk.css.map": "/static/css/627.b76e2c2b.chunk.css.map",
     "627.f5c82b40.chunk.js.map": "/static/js/627.f5c82b40.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d39eb4a.css",
-    "static/js/main.bf38ea94.js"
+    "static/css/main.d17e590e.css",
+    "static/js/main.b162e109.js"
   ]
 }
